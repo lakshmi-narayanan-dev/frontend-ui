@@ -1,1 +1,25 @@
+Text Gradient => bg + bg clip + fill transparent
 
+  {
+  font-size: 
+  font-weight: 
+	background: -webkit-linear-gradient(300 deg, #4f7df1, #bd59ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientBackground 3s linear infinite; /* Animation added */
+  }
+
+  /* With Gradient Animation */
+  /* Gradient Animation */
+  @keyframes gradientBackground {
+  0% {
+    background: -webkit-linear-gradient(300deg, #4f7df1, #bd59ff);
+  }
+  50% {
+    background: -webkit-linear-gradient(300deg, #bd59ff, #4f7df1);
+  }
+  100% {
+    background: -webkit-linear-gradient(300deg, #4f7df1, #bd59ff);
+  }
+}
