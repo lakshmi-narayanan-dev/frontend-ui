@@ -3,7 +3,7 @@ Text Gradient => bg + bg clip + fill transparent
   {
   font-size: 
   font-weight: 
-	background: -webkit-linear-gradient(300 deg, #4f7df1, #bd59ff);
+  background: -webkit-linear-gradient(300 deg, #4f7df1, #bd59ff);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
