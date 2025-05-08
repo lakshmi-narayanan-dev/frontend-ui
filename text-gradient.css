@@ -23,3 +23,13 @@ Text Gradient => bg + bg clip + fill transparent
     background: -webkit-linear-gradient(300deg, #4f7df1, #bd59ff);
   }
 }
+
+
+Gradient Text stroke Color
+--------------------------
+selector {
+bg : linear-gradient(120deg, #color1, #color2, #color3 );
+color : same as container color;
+background-clip : text ;
+text-stroke : 4px transparent;
+}
